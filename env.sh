@@ -1,0 +1,8 @@
+export AzureCosmosDbUri=https://pre-prod-discoveruni.documents.azure.com:443/
+export AzureCosmosDbKey=URty8aDNFeE6pyZ97kHP3LwWpOOUFblaRbfoaFA9RhlFKFAXxYTdjkaHLAE3m7iijmdyzyDtvuyfw2ywYtUJNw==
+export AzureCosmosDbConnectionString=AccountEndpoint=https://pre-prod-discoveruni.documents.azure.com:443/;AccountKey=URty8aDNFeE6pyZ97kHP3LwWpOOUFblaRbfoaFA9RhlFKFAXxYTdjkaHLAE3m7iijmdyzyDtvuyfw2ywYtUJNw==;
+export AzureCosmosDbDataSetCollectionId=datasets
+export AzureCosmosDbDatabaseId=discoveruni
+export AzureCosmosDbCoursesCollectionId=courses
+export AzureCosmosDbInstitutionsCollectionId=institutions
+export AzureStorageAccountName=pre-proddiscoveruni

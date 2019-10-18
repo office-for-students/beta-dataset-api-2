@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  get-course:
+    environment:
+      AzureCosmosDbUri: "${AzureCosmosDbUri}"
+      AzureCosmosDbKey: "${AzureCosmosDbKey}"
+      AzureCosmosDbConnectionString: "${AzureCosmosDbConnectionString}"
+      AzureCosmosDbDataSetCollectionId: "${AzureCosmosDbDataSetCollectionId}"
+      AzureCosmosDbDatabaseId: "${AzureCosmosDbDatabaseId}"
+      AzureCosmosDbCoursesCollectionId: "${AzureCosmosDbCoursesCollectionId}"
+      AzureCosmosDbInstitutionsCollectionId: "${AzureCosmosDbInstitutionsCollectionId}"
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5000:80
